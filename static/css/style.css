@@ -143,7 +143,7 @@ body {
     font-weight: 500;
 }
 
-/* --------Slider-------- */
+/* --------Slider clients result-------- */
 .customer-results {
     text-align: center;
     margin-top: 100px;
@@ -152,37 +152,84 @@ body {
     font-weight: 1000;
     font-size: 35px;
 }
+
 .customer-results:hover {
     color: #3658c2;
-    font-size: 40px;
+    /*font-size: 40px;*/
 }
 
-.wrapper {
-    max-height: 350px;
-    max-width: 350px;
-    margin: auto;
-    padding: 30px;
-    background-color: #3658c2;
-    margin-top: 40px;
-}
+/*.wrapper {*/
+/*    max-height: 350px;*/
+/*    max-width: 350px;*/
+/*    margin: auto;*/
+/*    padding: 30px;*/
+/*    background-color: #3658c2;*/
+/*    margin-top: 40px;*/
+/*}*/
 
-.text-results {
-    max-height: 350px;
-    max-width: 350px;
-    margin: auto;
-    padding: 30px;
-    background-color: #3658c2;
-    margin-top: 40px;
-}
+/*.text-results {*/
+/*    max-height: 350px;*/
+/*    max-width: 350px;*/
+/*    margin: auto;*/
+/*    padding: 30px;*/
+/*    background-color: #3658c2;*/
+/*    margin-top: 40px;*/
+/*}*/
 
-.wrapper:hover {
-    background-color: dodgerblue;
-}
+/*.wrapper:hover {*/
+/*    background-color: dodgerblue;*/
+/*    max-height: 350px;*/
+/*    max-width: 350px;*/
+/*}*/
 
 .slider {
     display: flex;
     justify-content: center;
 }
+
+.client-results-holder1 {
+    max-height: 350px;
+    max-width: 350px;
+    margin: auto;
+    padding: 30px;
+    background-color: #3658c2;
+    margin-top: 40px;
+}
+
+.client-results-holder2 {
+    margin: auto;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.client-results-holder2-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    white-space: pre-line;
+    text-align: left;
+    padding-left: 70px;
+    margin-bottom: 10px;
+    color: #003cfc;
+}
+
+.info-lose-weight-text {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    white-space: pre-line;
+    text-align: left;
+    padding-left: 70px;
+}
+
+.about-results-items {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+}
+
 
 /* ------------Button scroll up to the TOP PAGE ----*/
 
@@ -338,7 +385,6 @@ body {
     max-width: 550px;
     margin-top: 5px;
     padding: 30px;
-    /*background-color: pink;*/
 }
 
 .tariff-img {
@@ -691,6 +737,19 @@ body {
 
     .wrapper {
         margin-top: 80px;
+    }
+
+    .client-results-holder1 {
+        margin-left: 5px;
+        width: 350px;
+    }
+
+    .slider {
+        margin-left: 5px;
+    }
+
+    .about-results-items {
+        display: block;
     }
 /*  <!-- ======= End Slider photo before/after ======= -->*/
 
