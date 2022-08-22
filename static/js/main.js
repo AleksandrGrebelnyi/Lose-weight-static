@@ -67,7 +67,7 @@ $(function (){
 /*<!-- =============== Start burger menu ======= -->*/
 
 const burger = document.querySelector('#burger');
-const mneu = document.querySelector('#menu');
+const menu = document.querySelector('#menu');
 
 burger.addEventListener('click', () => {
   menu.classList.toggle('disp');
