@@ -816,11 +816,14 @@ body {
 
      /*<!-- =============== Start burger menu ======= -->*/
     .block {
-    display: block;
+        display: block;
+        text-align: left;
     }
+
     .bt {
         display: block;
     }
+
     .disp {
         display: none;
     }
@@ -828,6 +831,14 @@ body {
         border: none;
         outline: none;
         background-color: transparent;
+    }
+
+    .img-burger {
+        cursor: pointer;
+    }
+
+    .img-burger:hover {
+        filter: brightness(0.9);
     }
 }
  /*<!-- =============== End burger menu ======= -->*/
