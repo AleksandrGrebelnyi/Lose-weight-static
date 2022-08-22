@@ -63,3 +63,12 @@ $(function (){
     $('html, body').animate({scrollTop: $($(this).attr('href')).offset().top}, 1000)
   });
 });
+
+/*<!-- =============== Start burger menu ======= -->*/
+
+const burger = document.querySelector('#burger');
+const mneu = document.querySelector('#menu');
+
+burger.addEventListener('click', () => {
+  menu.classList.toggle('disp');
+});
